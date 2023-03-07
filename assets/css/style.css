@@ -1,33 +1,37 @@
 header {
-    padding-top: 20px;
-    background-color: ();
+    padding: 15px;
+    contain: content;
     color: whitesmoke;
 }
 
 .border {
-    display: block;
+    display: inline-block;
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: black;
+    background-color: rgba(136, 162, 180, 0.5)
 }
 
 h1 {
-    margin-top: auto;
-    margin-left: 2%;
+    display: inline-block;
+    margin-top: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 40px;
 }
 
-nav div ul li {
-    list-style-type: none;
+header div {
+    float: right;
+    padding-right: 2%;
+}
+
+header div ul li {
     display: inline-block;
-    margin-left: 235px;
-    font-size: 20px;
+    margin-left: 30px;
 }
 
 a {
     text-decoration: none;
     color: whitesmoke;
+    font-size: 20px;
 }
 
 .back-video {
@@ -62,7 +66,6 @@ section {
     contain: content;
     flex-direction: column;
     margin: 20px;
-    background-color: rgba(136, 162, 180, 0.5);
 }
 
 .card-header {
@@ -71,13 +74,13 @@ section {
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 40px;
     color: whitesmoke;
 }
 
 p {
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
 }
 
@@ -90,18 +93,25 @@ img {
 
 .center {
     display: block;
+    contain: content;
     border-width: 1px;
     border-radius: 10px 10px 10px 10px;
-    box-shadow: black;
+    background-color: rgba(136, 162, 180, 0.5)
 }
 
 .head {
     text-align: center;
 }
 
-div ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 220px;
-    font-size: 20px;
+article {
+    text-align: center;
+}
+
+article a {
+    font-size: 25px;
+}
+
+footer {
+    box-sizing: border-box;
+    text-align: center;
 }
