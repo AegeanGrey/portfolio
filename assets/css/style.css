@@ -6,7 +6,6 @@ header {
 
 .border {
     display: inline-block;
-    border-width: 1px;
     border-radius: 10px 10px 10px 10px;
     background-color: rgba(136, 162, 180, 0.5)
 }
@@ -62,15 +61,14 @@ nav {
 }
 
 section {
-    display: flex;
     contain: content;
-    flex-direction: column;
     margin: 20px;
 }
 
 .card-header {
     position: absolute;
     margin-left: 42%;
+    margin-right: 2%;
 }
 
 h2 {
@@ -84,34 +82,63 @@ p {
     color: whitesmoke;
 }
 
-img {
+.border img {
     display: block;
     max-width: 40%;
-    height: 50%;
-    margin-right: auto;
 }
 
-.center {
-    display: block;
-    contain: content;
-    border-width: 1px;
+.portfolio {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     border-radius: 10px 10px 10px 10px;
-    background-color: rgba(136, 162, 180, 0.5)
+    background-color: rgba(136, 162, 180, 0.5);
 }
 
-.head {
-    text-align: center;
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    min-width: 400px;
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgba(136, 162, 180, 0.5);
 }
 
 article {
+    contain: content;
+}
+
+article img {
+    display: block;
+    /* margin: 10px auto; */
+    max-width: 150px;
+    /* max-height: 150px; */
+    border-radius: 10px 0px 0px 10px;
+}
+
+article p {
+    position: right;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.center, #contact {
     text-align: center;
 }
 
-article a {
+div a {
     font-size: 25px;
 }
 
 footer {
     box-sizing: border-box;
-    text-align: center;
 }
