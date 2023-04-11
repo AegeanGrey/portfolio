@@ -6,4 +6,4 @@ The goal of this project was to build a website from scratch to provide a portfo
 - Display a unique, organized and immersive user experience
 - Provide proper links for ease of access and form of contact
 
-Link to the deployed application: https://aegeangrey.github.io/Portfolio/
+Link to the deployed application: https://aegeangrey.github.io/portfolio/
